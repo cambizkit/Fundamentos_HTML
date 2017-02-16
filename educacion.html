@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación - Camilo Laverde</title>
+  </head>
+  <body>
+    <header>
+      <p>
+        <a href="index.html">
+          <svg id="logo" height="100" width="220" viewbox="0 0 220 100" >
+            <image height="100" width="220"  xlink:href="images/logo.svg" />
+          </svg>
+        </a>
+      </p>
+      <h1>Curriculum Vitae</h1>
+      <h2>Camilo Andrés Laverde Peña</h2>
+      <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="educacion.html">Educación</a>
+        <a href="experiencia.html">Experiencia</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año Inicio</th>
+            <th>Año Finalización</th>
+            <th>Institución</th>
+            <th>Título</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008</td>
+            <td>2009</td>
+            <td>Colegio Mayor de Nuestra Señora de Rosario</td>
+            <td>Especialista en gerencia de proyectos de sistemas de información</td>
+            <td>Bogotá DC, Colombia</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>2006</td>
+            <td>Universidad Nacional de Colombia</td>
+            <td>Ingeniero de sistemas</td>
+            <td>Bogotá DC, Colombia</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+      <form action="index.html" method="post">
+        <fieldset>
+          <legend>Agregar estudios</legend>
+          <p>
+            <label for="anno_inicio">Año Inicio: </label>
+            <select name="anno_inicio" id="anno_inicio">
+              <option value="2017">2017</option>
+              <option value="2017">2016</option>
+              <option value="2017">2015</option>
+              <option value="2017">2014</option>
+              <option value="2017">2013</option>
+              <option value="2017">2012</option>
+              <option value="2017">2011</option>
+              <option value="2017">2010</option>
+              <option value="2017">2009</option>
+              <option value="2017">2008</option>
+              <option value="2017">2007</option>
+              <option value="2017">2006</option>
+              <option value="2017">2005</option>
+              <option value="2017">2004</option>
+              <option value="2017">2003</option>
+              <option value="2017">2002</option>
+              <option value="2017">2001</option>
+              <option value="2017">2000</option>
+            </select>
+          </p>
+          <p>
+            <label for="anno_fin">Año Finalización: </label>
+            <select name="anno_fin" id="anno_fin">
+              <option value="2017">2017</option>
+              <option value="2017">2016</option>
+              <option value="2017">2015</option>
+              <option value="2017">2014</option>
+              <option value="2017">2013</option>
+              <option value="2017">2012</option>
+              <option value="2017">2011</option>
+              <option value="2017">2010</option>
+              <option value="2017">2009</option>
+              <option value="2017">2008</option>
+              <option value="2017">2007</option>
+              <option value="2017">2006</option>
+              <option value="2017">2005</option>
+              <option value="2017">2004</option>
+              <option value="2017">2003</option>
+              <option value="2017">2002</option>
+              <option value="2017">2001</option>
+              <option value="2017">2000</option>
+            </select>
+          </p>
+          <p>
+            <label for="institucion">Institución: </label>
+            <input type="text" name="institucion" id="institucion" maxlength="80" required>
+          </p>
+          <p>
+            <label for="titulo">Título: </label>
+            <input type="text" name="titulo" id="titulo" maxlength="100" required>
+          </p>
+          <p>
+            <label for="lugar">Lugar: </label>
+            <textarea name="lugar" id="lugar" rows="5" cols="60"></textarea>
+          </p>
+          <p>
+            <label for="culmino">¿Culminó?: </label>
+            <input type="radio" name="culmino" id="culmino_si"> Si
+            <input type="radio" name="culmino" id="culmino_no"> No
+          </p>
+          <p>
+            <input type="submit" name="enviar" value="Enviar">
+          </p>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>© Derechos reservados</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:cambizkit@gmail.com" target="_blank">cambizkit@gmail.com</a></li>
+        <li><strong>Teléfono:</strong>+571 3002231794</li>
+        <li><img src="images/logo_facebook.png" alt="Facebook" title="Facebook" height="20" width="20"> <a href="https://www.facebook.com/cambizkit" target="_blank">cambizkit</a></li>
+        <li><img src="images/logo_twitter.png" alt="Facebook" title="Facebook" height="20" width="20"> <a href="https://twitter.com/cambizkit" target="_blank">@cambizkit</a></li>
+        <li><img src="images/logo_instagram.jpg" alt="Facebook" title="Facebook" height="20" width="20"> <a href="https://www.instagram.com/cambizkit/" target="_blank">@cambizkit</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
